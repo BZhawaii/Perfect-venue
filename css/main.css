@@ -1,0 +1,87 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.body-min {
+  min-height: 87vh;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 87vh}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+a {
+  color: black;
+}
+
+.picture-box {
+  height: 280px;
+  width: 400px;
+}
+
+.card-size {
+  height: 200px;
+  width: 200px;
+}
+
+ .bz-style {
+   display: flex;
+   flex-direction: row;
+   padding-top: 5em;
+ }
+
+ .perfect-align {
+   display: flex;
+   justify-content: space-between;
+   padding-right: 3em;
+ }
+
+.perfect-form {
+  padding-top: 3em;
+}
+
+.perfect-text {
+  padding-left: 3em;
+}
+
+.bottom-barrier {
+  padding-bottom: 3em;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: black;
+  padding: 15px;
+}
+
+.site-color {
+  color: black;
+  background: forestGreen;
+}
+
+/*.card-img-left {
+  border-bottom-left-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(.25rem - 1px);
+  float: left;
+  padding-right: 1em;
+  margin-bottom: -1.25em;
+}*/
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
