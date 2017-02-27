@@ -8,9 +8,6 @@
   min-height: 87vh;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 87vh}
-
 /* Set gray background color and 100% height */
 .sidenav {
   padding-top: 20px;
@@ -18,8 +15,32 @@
   height: 100%;
 }
 
+.contrast-color {
+  color: chocolate;
+  font-size: 2.5em;
+}
+
+.site-color {
+  color: black;
+  background: yellowGreen;
+}
+
+.new-white {
+  color: white;
+}
+
 a {
   color: black;
+}
+
+.color-black {
+  color: black;
+  /*text-decoration: underline;*/
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 87vh
 }
 
 .picture-box {
@@ -32,50 +53,57 @@ a {
   width: 200px;
 }
 
- .bz-style {
-   display: flex;
-   flex-direction: row;
-   padding-top: 5em;
- }
-
- .perfect-align {
-   display: flex;
-   justify-content: space-between;
-   padding-right: 3em;
- }
-
-.perfect-form {
-  padding-top: 3em;
+.portrait-size {
+  height: 400px;
+  width: 400px;
 }
 
-.perfect-text {
-  padding-left: 3em;
+.advertise-image {
+  height: 100px;
+  width: 180px;
+}
+
+.icon-image {
+  height: 30px;
+  width: 30px;
+}
+
+.bz-style {
+ display: flex;
+ flex-direction: row;
+ /*flex-wrap: wrap;*/
+ /*justify-content: center;*/
+ padding-top: 5em;
+}
+
+.padding-on-top {
+ padding-top: 5em;
 }
 
 .bottom-barrier {
   padding-bottom: 3em;
 }
 
+.perfect-form {
+  padding-top: 3em;
+}
+
+.perfect-align {
+ display: flex;
+ justify-content: space-between;
+ padding-right: 3em;
+}
+
+.perfect-text {
+  padding-left: 3em;
+}
+
 /* Set black background color, white text and some padding */
 footer {
   background-color: #555;
   color: black;
-  padding: 15px;
+  padding: 10px;
 }
-
-.site-color {
-  color: black;
-  background: forestGreen;
-}
-
-/*.card-img-left {
-  border-bottom-left-radius: calc(.25rem - 1px);
-  border-top-left-radius: calc(.25rem - 1px);
-  float: left;
-  padding-right: 1em;
-  margin-bottom: -1.25em;
-}*/
-
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
